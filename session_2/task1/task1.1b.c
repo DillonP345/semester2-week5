@@ -20,8 +20,14 @@ int main(void){
 	//todo: convert the list comprehension
 	
 	//print results
-	for(int i=0; i < count; i++){
-	    printf("%d ", squares[i]);
+	for(int i=0; i < 10; i++){
+		if(i%2 ==0){
+			squares = numbers[i]* numbers[i];
+			squares[count] = squares;
+			count++;		
+		
+		}
+	    printf("%d\n", squares[i]);
 	}
  
     return 0;

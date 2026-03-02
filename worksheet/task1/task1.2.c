@@ -12,6 +12,10 @@
 int main(void) {
  
 	printf("--- Average Calculator ---\n");
+
+	while
+
+
     	
 	return 0;
 }

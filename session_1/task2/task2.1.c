@@ -47,10 +47,25 @@ int main(int argc, char *argv[]) {
     
     // Complete your code here
 	switch(operation){
-		case :
+		case '+' :
+            result = num1 + num2;
+            printf("%.2f + %.2f = %.2f\n",num1,num2,result);
+            break;
+        case '-':
+            result = num1 - num2;
+            printf("%.2f - %.2f = %.2f\n",num1,num2,result);
+            break;
+        case 'x':
+            result = num1 * num2;
+            printf("%.2f x %.2f = %.2f\n",num1,num2,result);
+            break;
+        case '/':
+            result = num1 / num2;
+            printf("%.2f / %.2f = %.2f\n",num1,num2,result);
             break;
 		default:
 			printf("Operation not defined!\n");
+            
 	}
     
     printf("Result: %.2f\n", result);
