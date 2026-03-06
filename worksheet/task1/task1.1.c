@@ -10,7 +10,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int i, j, isPrime;
+    /*int i, j, isPrime;
 
     for (i = 2; i < 101; i++) {
         isPrime = 1;
@@ -27,5 +27,10 @@ int main(void) {
         }
     }
 
-    return 0;
+    return 0;*/
+    int i;
+for (i = 0; i < 5; i++);
+{
+    printf("%d", i);
+}
 }
